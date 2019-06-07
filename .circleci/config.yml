@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.10-browsers
+        environment:
+          CHROME_BIN: '/usr/bin/google-chrome'
+    steps:
+      - checkout
+      - run: yarn install
+      - run: yarn build
