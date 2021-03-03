@@ -11,7 +11,7 @@
   },
   "author": "@cdunnnnnnn",
   "dependencies": {
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "tailwindcss": "^1.0.1"
   },
   "browserslist": [
